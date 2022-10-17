@@ -3,8 +3,8 @@ import Login from "./components/Login"
 import "./App.css";
 import { getTokenFromUrl } from "./spotify";
 import SpotifyWebApi from "spotify-web-api-js";
-import Player from "./spotify";
-import { useDataLayerValue } from "./DataLayer";
+import Player from "./Player";
+import { useDataLayerValue } from "./Datalayer";
 
 const spotify = new SpotifyWebApi();
 
